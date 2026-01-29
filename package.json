@@ -1,0 +1,20 @@
+{
+  "name": "deployment-rollback-project",
+  "version": "1.0.0",
+  "description": "Deployment Failure Simulation and Recovery Using Version Rollback",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "deploy-v1": "node scripts/deploy-v1.js",
+    "deploy-v2": "node scripts/deploy-v2.js",
+    "rollback": "node scripts/rollback.js",
+    "health-check": "node scripts/health-check.js",
+    "monitor": "node scripts/monitor.js"
+  },
+  "keywords": ["deployment", "rollback", "failure-recovery"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
